@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: 'Nabla', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: FEFFFE;
+    /* font-family: 'Nabla', cursive; */
+}
+
+/* Trabalhando nas navs em geral */
+.navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: FEFFFE;
+    box-shadow: 0 1px 4px -2px #c7c4c4;
+    height: 20%;
+    width: 100%;
+}
+
+/* Trabalhando na nav de imagem */
+.navs .nav-images{
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.navs .nav-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 19%;
+    margin-bottom: 3%;
+}
+
+.navs .nav-elements li{
+    display: block;
+    margin-left: 60%;
+    
+}
+
+.nav-elements li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-elements li a:hover{
+    color: #6D63FE;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: FEFFFE;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+.footer-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: pink; 
+}
+
+.footer-bottom{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
