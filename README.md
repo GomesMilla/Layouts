@@ -33,7 +33,6 @@ Este é um projeto totalmente grátis!
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 
-```
 
 ### Autor
 ---
